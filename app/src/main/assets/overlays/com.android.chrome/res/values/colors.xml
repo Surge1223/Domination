@@ -202,4 +202,13 @@
     <color name="data_reduction_breakdown_text_color">#ffffffff</color>
     <color name="data_reduction_breakdown_light_text_color">#ffbbbbbb</color>
     <color name="translate_overflow_menu_divider_color">#00000000</color>
+
+
+    <color name="google_grey_600">#ffffffff</color>
+
+    <color name="insecure_context_payment_disabled_message_text">#ffbbbbbb</color>
+    <color name="keyboard_accessory_hint_icon">#ff1976d2</color>
+
+    <color name="black_alpha_54">#ffdddddd</color>
+    <color name="black_alpha_87">#ffdddddd</color>
 </resources>

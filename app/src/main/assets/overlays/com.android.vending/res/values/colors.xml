@@ -246,4 +246,10 @@
     <color name="play_card_ad_badge_color_v2">#ff388e3c</color>
     <color name="tooltip_background_dark">#e6202020</color>
     <color name="tooltip_background_light">#e6202020</color>
+
+
+    <color name="instant_apps_settings_action_bar_color">@*android:color/primary_material_dark</color>
+    <color name="instant_apps_settings_radio_button_tint">#ff1976d2</color>
+    <color name="instant_apps_settings_status_bar_color">@*android:color/primary_dark_material_dark</color>
+    <color name="preregistrable_games_rewards_tooltip_color">@*android:color/button_material_dark</color>
 </resources>

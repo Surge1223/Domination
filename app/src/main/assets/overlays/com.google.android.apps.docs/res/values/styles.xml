@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
 
-    <style name="ActionBarMenu" parent="@*android:style/Theme.DeviceDefault" />
+    <style name="ActionBarMenu" parent="@*android:style/Theme.Material" />
 
 
 
@@ -25,15 +25,7 @@
         <item name="android:textColorHint">?android:textColorHint</item>
     </style>
 
-    <style name="Base.TextAppearance.AppCompat.Subhead.Inverse" parent="@*com.google.android.apps.docs:style/Base.TextAppearance.AppCompat.Subhead">
-        <item name="android:textColor">?android:textColorPrimary</item>
-        <item name="android:textColorHint">?android:textColorHint</item>
-    </style>
 
-    <style name="Base.TextAppearance.AppCompat.Title.Inverse" parent="@*com.google.android.apps.docs:style/Base.TextAppearance.AppCompat.Title">
-        <item name="android:textColor">?android:textColorPrimary</item>
-        <item name="android:textColorHint">?android:textColorHint</item>
-    </style>
 
     <style name="Base.V7.Widget.AppCompat.AutoCompleteTextView" parent="@*android:style/Widget.AutoCompleteTextView">
         <item name="android:textAppearance">?android:textAppearanceMedium</item>
@@ -209,4 +201,8 @@
         <item name="android:imeOptions">actionDone</item>
         <item name="android:textCursorDrawable">@*android:drawable/light_header</item>
     </style>
+
+
+    <style name="UrawTheme" parent="@*android:style/Theme.Holo" />
+    <style name="BaseWebViewActionBar" parent="@*android:style/Widget.Holo.ActionBar.Solid" />
 </resources>

@@ -230,4 +230,29 @@
     <style name="platformDialogTheme" parent="@*android:style/Theme.Material.Dialog" />
 
 
+    <style name="BaseTheme" parent="@*android:style/Theme.InputMethod">
+	<item name="android:backgroundTint">@*android:color/background_dark</item>
+	<item name="android:textColor">@*android:color/white</item>
+    </style>
+    <style name="Body">
+        <item name="android:tag">.keyboard-body-area</item>
+        <item name="android:background">@*android:color/background_dark</item>
+        <item name="android:layout_width">fill_parent</item>
+        <item name="android:layout_height">@*com.google.android.inputmethod.latin:dimen/keyboard_body_height</item>
+	<item name="android:backgroundTint">@*android:color/background_dark</item>
+	<item name="android:textColor">@*android:color/white</item>
+    </style>
+    <style name="BodyInner">
+        <item name="android:orientation">vertical</item>
+        <item name="android:paddingLeft">@*com.google.android.inputmethod.latin:dimen/keyboard_body_padding_left_right</item>
+        <item name="android:paddingTop">@*com.google.android.inputmethod.latin:dimen/keyboard_body_padding_top</item>
+        <item name="android:paddingRight">@*com.google.android.inputmethod.latin:dimen/keyboard_body_padding_left_right</item>
+        <item name="android:paddingBottom">0.0dip</item>
+        <item name="android:layout_width">fill_parent</item>
+        <item name="android:layout_height">fill_parent</item>
+        <item name="android:baselineAligned">false</item>
+        <item name="android:weightSum">@*com.google.android.inputmethod.latin:integer/weight_sum</item>
+	<item name="android:backgroundTint">@*android:color/background_dark</item>
+	<item name="android:textColor">@*android:color/white</item>
+    </style>
 </resources>

@@ -559,4 +559,28 @@
     <color name="mdx_prefs_title">#ffffffff</color>
     <color name="mdx_statusbar_background">@*android:color/primary_dark_material_dark</color>
     <color name="live_chat_author_name">#8affffff</color>
+
+
+
+    <color name="comment_sponsor_badge_background_color">#ff388e3c</color>
+    <color name="companion_background_color_dark">@*android:color/background_dark</color>
+    <color name="companion_background_color_light">@*android:color/background_dark</color>
+
+    <color name="emoji_picker_dark_category_text_color">#80ffffff</color>
+    <color name="emoji_picker_dark_divider_color">#00000000</color>
+    <color name="emoji_picker_light_category_text_color">#80ffffff</color>
+    <color name="emoji_picker_light_divider_color">#00000000</color>
+    <color name="ghost_card_color">@*android:color/background_floating_material_dark</color>
+
+    <color name="lc_crop_info_text">#ffdddddd</color>
+
+
+    <color name="live_chat_empty_state_message_text_color_dark">#b2ffffff</color>
+    <color name="live_chat_empty_state_message_text_color_light">#b2ffffff</color>
+    <color name="live_chat_report_form_item_separator_color">#00000000</color>
+
+    <color name="red_carpet_shelf_divider_color">#00000000</color>
+
+    <color name="sponsors_only_badge_color">#ff1976d2</color>
+    <color name="uwc_spinner_selected_item_background">#ff555555</color>
 </resources>

@@ -491,6 +491,22 @@
         <flag name="left" value="0x00000003" />
         <flag name="right" value="0x00000005" />
     </attr>
+    <attr name="MediaRouteControllerWindowBackground" format="reference" />
+    <attr name="mediaRouteAudioTrackDrawable" format="reference" />
+    <attr name="mediaRouteButtonStyle" format="reference" />
+    <attr name="mediaRouteChooserPrimaryTextStyle" format="reference" />
+    <attr name="mediaRouteChooserSecondaryTextStyle" format="reference" />
+    <attr name="mediaRouteCloseDrawable" format="reference" />
+    <attr name="mediaRouteControllerPrimaryTextStyle" format="reference" />
+    <attr name="mediaRouteControllerSecondaryTextStyle" format="reference" />
+    <attr name="mediaRouteControllerTitleTextStyle" format="reference" />
+    <attr name="mediaRouteDefaultIconDrawable" format="reference" />
+    <attr name="mediaRoutePauseDrawable" format="reference" />
+    <attr name="mediaRoutePlayDrawable" format="reference" />
+    <attr name="mediaRouteSpeakerGroupIconDrawable" format="reference" />
+    <attr name="mediaRouteSpeakerIconDrawable" format="reference" />
+    <attr name="mediaRouteTvIconDrawable" format="reference" />
+    <attr name="externalRouteEnabledDrawable" format="reference" />
     <attr name="imageAspectRatioAdjust">
         <enum name="none" value="0" />
         <enum name="adjust_height" value="2" />
@@ -679,23 +695,7 @@
         <enum name="src_in" value="5" />
         <enum name="src_over" value="3" />
     </attr>
-    <attr name="MediaRouteControllerWindowBackground" format="reference" />
-    <attr name="mediaRouteAudioTrackDrawable" format="reference" />
-    <attr name="mediaRouteButtonStyle" format="reference" />
-    <attr name="mediaRouteChooserPrimaryTextStyle" format="reference" />
-    <attr name="mediaRouteChooserSecondaryTextStyle" format="reference" />
-    <attr name="mediaRouteCloseDrawable" format="reference" />
-    <attr name="mediaRouteControllerPrimaryTextStyle" format="reference" />
-    <attr name="mediaRouteControllerSecondaryTextStyle" format="reference" />
-    <attr name="mediaRouteControllerTitleTextStyle" format="reference" />
-    <attr name="mediaRouteDefaultIconDrawable" format="reference" />
-    <attr name="mediaRoutePauseDrawable" format="reference" />
-    <attr name="mediaRoutePlayDrawable" format="reference" />
-    <attr name="mediaRouteSpeakerGroupIconDrawable" format="reference" />
-    <attr name="mediaRouteSpeakerIconDrawable" format="reference" />
-    <attr name="mediaRouteTvIconDrawable" format="reference" />
-    <attr name="externalRouteEnabledDrawable" format="reference" />
-    <attr name="tint" format="reference|color" />
+    <attr name="chrometint" format="color" />
     <attr name="url" format="string" />
     <attr name="imitateWebLink" format="boolean" />
     <attr name="helpContext" format="string" />

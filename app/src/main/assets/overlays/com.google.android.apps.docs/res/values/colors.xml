@@ -394,4 +394,8 @@
     <color name="snackbar_action_text">#ff1976d2</color>
     <color name="tooltip_background_dark">#e6202020</color>
     <color name="tooltip_background_light">#e6202020</color>
+
+
+    <color name="material_grey_300">#00000000</color>
+
 </resources>

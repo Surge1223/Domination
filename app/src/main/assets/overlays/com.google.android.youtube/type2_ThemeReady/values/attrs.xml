@@ -568,6 +568,7 @@
     <attr name="buffered_color" format="color" />
     <attr name="unplayed_color" format="color" />
     <attr name="ad_marker_color" format="color" />
+    <attr name="played_ad_marker_color" format="color" />
     <attr name="color" format="color" />
     <attr name="spinBars" format="boolean" />
     <attr name="drawableSize" format="dimension" />
@@ -917,15 +918,17 @@
     <attr name="endColor" format="color" />
     <attr name="startSize" format="dimension" />
     <attr name="endSize" format="dimension" />
-    <attr name="hintTextAppearance" format="reference" />
     <attr name="hintEnabled" format="boolean" />
+    <attr name="hintAnimationEnabled" format="boolean" />
+    <attr name="hintTextAppearance" format="reference" />
+    <attr name="helperTextEnabled" format="boolean" />
+    <attr name="helperTextTextAppearance" format="reference" />
     <attr name="errorEnabled" format="boolean" />
     <attr name="errorTextAppearance" format="reference" />
     <attr name="counterEnabled" format="boolean" />
     <attr name="counterMaxLength" format="integer" />
     <attr name="counterTextAppearance" format="reference" />
     <attr name="counterOverflowTextAppearance" format="reference" />
-    <attr name="hintAnimationEnabled" format="boolean" />
     <attr name="passwordToggleEnabled" format="boolean" />
     <attr name="passwordToggleDrawable" format="reference" />
     <attr name="passwordToggleContentDescription" format="string" />

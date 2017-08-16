@@ -93,6 +93,7 @@
     <attr name="autoSizePresetSizes" format="reference" />
     <attr name="autoSizeMinTextSize" format="dimension" />
     <attr name="autoSizeMaxTextSize" format="dimension" />
+    <attr name="fontFamily" format="string" />
     <attr name="windowActionBar" format="boolean" />
     <attr name="windowNoTitle" format="boolean" />
     <attr name="windowActionBarOverlay" format="boolean" />
@@ -221,6 +222,11 @@
         <enum name="unitSp" value="2" />
     </attr>
     <attr name="autoResizeText_minTextSize" format="dimension" />
+    <attr name="shiftingMode">
+        <enum name="auto" value="2" />
+        <enum name="off" value="0" />
+        <enum name="on" value="1" />
+    </attr>
     <attr name="behavior_peekHeight" format="dimension">
         <enum name="auto" value="-1" />
     </attr>
@@ -366,9 +372,6 @@
         <flag name="top" value="0x00000030" />
         <flag name="all" value="0x00000077" />
     </attr>
-    <attr name="bottomSheetDialogTheme" format="reference" />
-    <attr name="bottomSheetStyle" format="reference" />
-    <attr name="textColorError" format="color" />
     <attr name="dialpad_key_button_touch_tint" format="color" />
     <attr name="dialpad_digits_adjustable_text_size" format="dimension" />
     <attr name="dialpad_digits_adjustable_height" format="dimension" />
@@ -401,6 +404,13 @@
     <attr name="fontProviderPackage" format="string" />
     <attr name="fontProviderQuery" format="string" />
     <attr name="fontProviderCerts" format="reference" />
+    <attr name="fontProviderFetchStrategy">
+        <enum name="async" value="1" />
+        <enum name="blocking" value="0" />
+    </attr>
+    <attr name="fontProviderFetchTimeout" format="integer">
+        <enum name="forever" value="-1" />
+    </attr>
     <attr name="fontStyle">
         <enum name="normal" value="0" />
         <enum name="italic" value="1" />
@@ -452,6 +462,18 @@
     <attr name="latLngBoundsSouthWestLongitude" format="float" />
     <attr name="latLngBoundsNorthEastLatitude" format="float" />
     <attr name="latLngBoundsNorthEastLongitude" format="float" />
+    <attr name="colorPrimaryLight" format="color" />
+    <attr name="colorSecondary" format="color" />
+    <attr name="colorSecondaryLight" format="color" />
+    <attr name="colorSecondaryDark" format="color" />
+    <attr name="colorPalettePrimary" format="reference" />
+    <attr name="colorPaletteSecondary" format="reference" />
+    <attr name="textColorError" format="reference|color" />
+    <attr name="colorMaterialControl" format="color" />
+    <attr name="colorMaterialControlHighlight" format="color" />
+    <attr name="bottomSheetDialogTheme" format="reference" />
+    <attr name="bottomSheetStyle" format="reference" />
+    <attr name="materialButtonStyle" format="reference" />
     <attr name="alphabeticModifiers">
         <flag name="ALT" value="0x00000002" />
         <flag name="CTRL" value="0x00001000" />

@@ -2,7 +2,6 @@
 <resources>
     <attr name="drawerArrowStyle" format="reference" />
     <attr name="fabColor" format="color" />
-    <attr name="fontPath" format="string" />
     <attr name="height" format="dimension" />
     <attr name="isLightTheme" format="boolean" />
     <attr name="title" format="string" />
@@ -350,6 +349,81 @@
     <attr name="offsetChild" format="reference" />
     <attr name="leftFloat" format="boolean" />
     <attr name="foregroundInsidePadding" format="boolean" />
+    <attr name="fadeDuration" format="integer" />
+    <attr name="viewAspectRatio" format="float" />
+    <attr name="placeholderImage" format="reference" />
+    <attr name="placeholderImageScaleType">
+        <enum name="none" value="-1" />
+        <enum name="center" value="4" />
+        <enum name="centerCrop" value="6" />
+        <enum name="centerInside" value="5" />
+        <enum name="fitCenter" value="2" />
+        <enum name="fitEnd" value="3" />
+        <enum name="fitStart" value="1" />
+        <enum name="fitXY" value="0" />
+        <enum name="focusCrop" value="7" />
+    </attr>
+    <attr name="retryImage" format="reference" />
+    <attr name="retryImageScaleType">
+        <enum name="none" value="-1" />
+        <enum name="center" value="4" />
+        <enum name="centerCrop" value="6" />
+        <enum name="centerInside" value="5" />
+        <enum name="fitCenter" value="2" />
+        <enum name="fitEnd" value="3" />
+        <enum name="fitStart" value="1" />
+        <enum name="fitXY" value="0" />
+        <enum name="focusCrop" value="7" />
+    </attr>
+    <attr name="failureImage" format="reference" />
+    <attr name="failureImageScaleType">
+        <enum name="none" value="-1" />
+        <enum name="center" value="4" />
+        <enum name="centerCrop" value="6" />
+        <enum name="centerInside" value="5" />
+        <enum name="fitCenter" value="2" />
+        <enum name="fitEnd" value="3" />
+        <enum name="fitStart" value="1" />
+        <enum name="fitXY" value="0" />
+        <enum name="focusCrop" value="7" />
+    </attr>
+    <attr name="progressBarImage" format="reference" />
+    <attr name="progressBarImageScaleType">
+        <enum name="none" value="-1" />
+        <enum name="center" value="4" />
+        <enum name="centerCrop" value="6" />
+        <enum name="centerInside" value="5" />
+        <enum name="fitCenter" value="2" />
+        <enum name="fitEnd" value="3" />
+        <enum name="fitStart" value="1" />
+        <enum name="fitXY" value="0" />
+        <enum name="focusCrop" value="7" />
+    </attr>
+    <attr name="progressBarAutoRotateInterval" format="integer" />
+    <attr name="actualImageScaleType">
+        <enum name="none" value="-1" />
+        <enum name="center" value="4" />
+        <enum name="centerCrop" value="6" />
+        <enum name="centerInside" value="5" />
+        <enum name="fitCenter" value="2" />
+        <enum name="fitEnd" value="3" />
+        <enum name="fitStart" value="1" />
+        <enum name="fitXY" value="0" />
+        <enum name="focusCrop" value="7" />
+    </attr>
+    <attr name="backgroundImage" format="reference" />
+    <attr name="overlayImage" format="reference" />
+    <attr name="pressedStateOverlayImage" format="reference" />
+    <attr name="roundAsCircle" format="boolean" />
+    <attr name="roundedCornerRadius" format="dimension" />
+    <attr name="roundTopLeft" format="boolean" />
+    <attr name="roundTopRight" format="boolean" />
+    <attr name="roundBottomRight" format="boolean" />
+    <attr name="roundBottomLeft" format="boolean" />
+    <attr name="roundWithOverlayColor" format="color" />
+    <attr name="roundingBorderWidth" format="dimension" />
+    <attr name="roundingBorderColor" format="color" />
+    <attr name="roundingBorderPadding" format="dimension" />
     <attr name="orientation">
         <enum name="horizontal" value="0" />
         <enum name="vertical" value="1" />
@@ -390,9 +464,6 @@
         <enum name="leftFlipTab" value="2" />
         <enum name="rightFlipTab" value="3" />
     </attr>
-    <attr name="prefText" format="string" />
-    <attr name="prefIcon" format="reference" />
-    <attr name="prefDivider" format="boolean" />
     <attr name="langLocale" format="string" />
     <attr name="langTitle" format="reference" />
     <attr name="latinKeyStyle" format="reference" />
@@ -422,7 +493,9 @@
         <enum name="icon_SpaceKey_OpenBox" value="14" />
         <enum name="icon_SplitLayoutKeyQWERTY" value="16" />
         <enum name="icon_TabKey" value="11" />
+        <enum name="icon_default_layout" value="21" />
         <enum name="icon_downArrow" value="10" />
+        <enum name="icon_handwriting_squiggle" value="20" />
         <enum name="icon_leftArrow" value="7" />
         <enum name="icon_rightArrow" value="8" />
         <enum name="icon_smiley" value="19" />
@@ -442,7 +515,9 @@
         <enum name="icon_SpaceKey_OpenBox" value="14" />
         <enum name="icon_SplitLayoutKeyQWERTY" value="16" />
         <enum name="icon_TabKey" value="11" />
+        <enum name="icon_default_layout" value="21" />
         <enum name="icon_downArrow" value="10" />
+        <enum name="icon_handwriting_squiggle" value="20" />
         <enum name="icon_leftArrow" value="7" />
         <enum name="icon_rightArrow" value="8" />
         <enum name="icon_smiley" value="19" />
@@ -462,7 +537,9 @@
         <enum name="abc" value="-2" />
         <enum name="language_next" value="-3" />
         <enum name="language_previous" value="-4" />
+        <enum name="switch_from_handwriting" value="-12" />
         <enum name="switch_to_abc_secondary" value="-10" />
+        <enum name="switch_to_handwriting" value="-11" />
         <enum name="switch_to_symbols" value="-7" />
         <enum name="switch_to_symbols_alt" value="-8" />
         <enum name="switch_to_symbols_native" value="-9" />
@@ -550,12 +627,10 @@
         <enum name="light" value="1" />
     </attr>
     <attr name="scopeUris" format="reference|string" />
+    <attr name="actualImageUri" format="string" />
+    <attr name="actualImageResource" format="reference" />
     <attr name="maxActionInlineWidth" format="dimension" />
     <attr name="swiftKeyFabColor" format="color" />
-    <attr name="swiftmoji_swatch_colour_name" format="string" />
-    <attr name="swiftmoji_swatch_colour" format="color" />
-    <attr name="swiftmoji_swatch_border_colour" format="color" />
-    <attr name="swiftmoji_switch_chooser_text" format="string" />
     <attr name="thumbTint" format="color" />
     <attr name="thumbTintMode">
         <enum name="add" value="16" />
@@ -653,6 +728,7 @@
     <attr name="splitStart" format="dimension|fraction" />
     <attr name="splitEnd" format="dimension|fraction" />
     <attr name="disableFlow" format="boolean" />
+    <attr name="supportUrl" format="boolean" />
     <attr name="disablePopups" format="boolean" />
     <attr name="locale" format="string" />
     <attr name="rightToLeft" format="boolean" />

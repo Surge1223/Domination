@@ -151,19 +151,6 @@
         <item name="*com.google.android.contacts:dialpad_icon_tint">@*com.google.android.contacts:color/dialpad_icon_tint</item>
         <item name="*com.google.android.contacts:dialpad_voicemail_tint">@*com.google.android.contacts:color/dialpad_voicemail_tint</item>
         <item name="*com.google.android.contacts:dialpad_background">@*com.google.android.contacts:color/background_dialpad</item>
-        <item name="*com.google.android.contacts:dialpad_separator_color">#00000000</item>
-        <item name="*com.google.android.contacts:dialpad_margin_style">@*com.google.android.contacts:style/DialpadSpaceStyle</item>
-        <item name="*com.google.android.contacts:dialpad_delete_padding">@*com.google.android.contacts:dimen/dialpad_digits_padding</item>
     </style>
-    <style name="Dialpad_LightTransparent">
-        <item name="*com.google.android.contacts:dialpad_text_color">?android:textColorPrimary</item>
-        <item name="*com.google.android.contacts:dialpad_text_color_primary">?android:textColorPrimary</item>
-        <item name="*com.google.android.contacts:dialpad_text_color_secondary">?android:textColorSecondary</item>
-        <item name="*com.google.android.contacts:dialpad_icon_tint">@*com.google.android.contacts:color/dialpad_icon_tint_dark</item>
-        <item name="*com.google.android.contacts:dialpad_voicemail_tint">@*com.google.android.contacts:color/dialpad_icon_tint_dark</item>
-        <item name="*com.google.android.contacts:dialpad_background">@*android:color/transparent</item>
-        <item name="*com.google.android.contacts:dialpad_separator_color">@*android:color/transparent</item>
-        <item name="*com.google.android.contacts:dialpad_margin_style">@*com.google.android.contacts:style/DialpadNoSpaceStyle</item>
-        <item name="*com.google.android.contacts:dialpad_delete_padding">1.0dip</item>
-    </style>
+
 </resources>

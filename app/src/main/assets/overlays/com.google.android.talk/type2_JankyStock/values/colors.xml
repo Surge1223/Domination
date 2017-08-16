@@ -105,6 +105,7 @@
     <color name="quantum_bluegrey700">#ffffffff</color>
     <color name="quantum_bluegrey800">#ffffffff</color>
     <color name="quantum_bluegrey900">#ffffffff</color>
+    <color name="quantum_grey100">@*android:color/background_dark</color>
     <color name="quantum_grey200">@*android:color/background_floating_material_dark</color>
     <color name="quantum_grey300">#ffffffff</color>
     <color name="quantum_grey500">#ffdddddd</color>

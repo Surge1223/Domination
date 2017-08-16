@@ -322,7 +322,7 @@
     <color name="interest_picker_search_subtitle">#ffdddddd</color>
     <color name="interest_picker_search_title">#ffffffff</color>
     <color name="interest_picker_search_unchecked_tint">#ff1976d2</color>
-
+    <color name="interest_picker_searchview">#b3ffffff</color>
     <color name="key_color_protection_overlay">#ffffffff</color>
     <color name="keyboard_icon">#ffffffff</color>
     <color name="large_icon_notification_background_branding_v2">#ff1976d2</color>
@@ -547,7 +547,7 @@
     <color name="quantum_grey500">#ffffffff</color>
     <color name="quantum_grey600">#ffffffff</color>
     <color name="quantum_grey700">#ffffffff</color>
-    <color name="quantum_grey800">#ffffffff</color>
+    <color name="quantum_grey800">@*android:color/background_floating_material_dark</color>
     <color name="quantum_grey900">#ffffffff</color>
 
 
@@ -864,4 +864,11 @@
 
     <color name="text_black_54_percent">#8affffff</color>
     <color name="text_black_87_percent">#dfffffff</color>
+
+
+    <color name="boc_header_background">@*android:color/primary_material_dark</color>
+    <color name="chromeos_caption_bar_background_color">@*android:color/primary_material_dark</color>
+    <color name="chromeos_caption_bar_button_selection_background_color">#ff555555</color>
+    <color name="hats_lib_survey_light_ripple_color">#4dffffff</color>
+    <color name="snackbar_action_text_color">#ff1976d2</color>
 </resources>

@@ -177,4 +177,7 @@
     <color name="bubble_color_incoming">#ffffffff</color>
     <color name="bubble_color_outgoing">@*android:color/button_material_dark</color>
     <color name="live_location_arrow">@*android:color/background_floating_material_dark</color>
+
+
+    <color name="live_location_teal">#ff00796b</color>
 </resources>

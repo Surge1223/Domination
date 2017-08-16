@@ -254,4 +254,15 @@
 
     <color name="keep_default_color">@*android:color/background_floating_material_dark</color>
     <color name="default_fragment_background_color">@*android:color/background_floating_material_dark</color>
+
+    <color name="collaborator_fragment_title_text_color">#ffffffff</color>
+    <color name="explore_background_color">@*android:color/background_dark</color>
+    <color name="explore_empty_view_link">#ff1976d2</color>
+    <color name="explore_loading_spinner">#ff1976d2</color>
+    <color name="search_highlight_text_color">#ffffffff</color>
+    <color name="share_fragment_save_text_color_disabled">#80ffffff</color>
+    <color name="share_fragment_save_text_color_enabled">#ffffffff</color>
+
+    <color name="tooltip_background_dark">#e6202020</color>
+    <color name="tooltip_background_light">#e6202020</color>
 </resources>

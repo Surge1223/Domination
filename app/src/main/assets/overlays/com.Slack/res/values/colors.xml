@@ -191,8 +191,8 @@
     <color name="secondary_text_default_material_light">#b3ffffff</color>
     <color name="secondary_text_disabled_material_dark">#36ffffff</color>
     <color name="secondary_text_disabled_material_light">#36ffffff</color>
-    <color name="selected_message_yellow">#16fbc02d</color>
-    <color name="sidebar_active_item">#ff00796b</color>
+    <color name="selected_message_yellow">#ff555555</color>
+    <color name="sidebar_active_item">#ff555555</color>
     <color name="sidebar_active_item_text">#ffffffff</color>
     <color name="sidebar_badge">#ffd32f2f</color>
     <color name="sidebar_bg">@*android:color/background_floating_material_dark</color>
@@ -235,7 +235,7 @@
     <color name="blue_fill_5p">#0e1976d2</color>
     <color name="blue_link">#ff1976d2</color>
     <color name="blue_pressed">#ff0d47a1</color>
-    <color name="highlight_yellow">#fffbc02d</color>
+    <color name="highlight_yellow">#ff555555</color>
     <color name="instant_invite_button_blue">#ff1976d2</color>
     <color name="instant_invite_grey">#ffdddddd</color>
     <color name="instant_invite_link_blue">#ff1976d2</color>

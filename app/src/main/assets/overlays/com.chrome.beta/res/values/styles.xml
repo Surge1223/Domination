@@ -29,59 +29,9 @@
         <item name="android:dropDownListViewStyle">@*com.chrome.beta:style/Base.Widget.AppCompat.ListView.DropDown</item>
     </style>
     <style name="Base.Widget.AppCompat.ListView.DropDown" parent="@*android:style/Widget.Material.ListView.DropDown">
-      <item name="android:backgroundTint">@null</item>
+      <item name="android:backgroundTint">@*android:color/background_floating_material_dark</item>
     </style> 
-    <style name="Widget.MediaRouter.ChooserText" parent="">
-        <item name="android:textStyle">normal</item>
-        <item name="android:fontFamily">sans-serif</item>
-    </style>
-    <style name="Widget.MediaRouter.ChooserText.Primary" parent="@*com.chrome.beta:style/Widget.MediaRouter.ChooserText">
-        <item name="android:textSize">16.0sp</item>
-    </style>
-    <style name="Widget.MediaRouter.ChooserText.Secondary" parent="@*com.chrome.beta:style/Widget.MediaRouter.ChooserText">
-        <item name="android:textSize">14.0sp</item>
-    </style>
-    <style name="Widget.MediaRouter.ChooserText.Primary.Dark" parent="@*com.chrome.beta:style/Widget.MediaRouter.ChooserText.Primary">
-        <item name="android:textColor">#ffffffff</item>
-    </style>
-    <style name="Widget.MediaRouter.ChooserText.Primary.Light" parent="@*com.chrome.beta:style/Widget.MediaRouter.ChooserText.Primary">
-        <item name="android:textColor">#ffffffff</item>
-    </style>
-    <style name="Widget.MediaRouter.ChooserText.Secondary.Dark" parent="@*com.chrome.beta:style/Widget.MediaRouter.ChooserText.Secondary">
-        <item name="android:textColor">#8affffff</item>
-    </style>
-    <style name="Widget.MediaRouter.ChooserText.Secondary.Light" parent="@*com.chrome.beta:style/Widget.MediaRouter.ChooserText.Secondary">
-        <item name="android:textColor">#8affffff</item>
-    </style>
-    <style name="Widget.MediaRouter.ControllerText" parent="@*com.chrome.beta:style/Widget.MediaRouter.ChooserText" />
-    <style name="Widget.MediaRouter.ControllerText.Title" parent="@*com.chrome.beta:style/Widget.MediaRouter.ControllerText">
-        <item name="android:textSize">20.0sp</item>
-        <item name="android:fontFamily">sans-serif-medium</item>
-    </style>
-    <style name="Widget.MediaRouter.ControllerText.Primary" parent="@*com.chrome.beta:style/Widget.MediaRouter.ControllerText">
-        <item name="android:textSize">16.0sp</item>
-    </style>
-    <style name="Widget.MediaRouter.ControllerText.Secondary" parent="@*com.chrome.beta:style/Widget.MediaRouter.ControllerText">
-        <item name="android:textSize">14.0sp</item>
-    </style>
-    <style name="Widget.MediaRouter.ControllerText.Title.Dark" parent="@*com.chrome.beta:style/Widget.MediaRouter.ControllerText.Title">
-        <item name="android:textColor">#ffffffff</item>
-    </style>
-    <style name="Widget.MediaRouter.ControllerText.Title.Light" parent="@*com.chrome.beta:style/Widget.MediaRouter.ControllerText.Title">
-        <item name="android:textColor">#ffffffff</item>
-    </style>
-    <style name="Widget.MediaRouter.ControllerText.Primary.Dark" parent="@*com.chrome.beta:style/Widget.MediaRouter.ControllerText.Primary">
-        <item name="android:textColor">#ffffffff</item>
-    </style>
-    <style name="Widget.MediaRouter.ControllerText.Primary.Light" parent="@*com.chrome.beta:style/Widget.MediaRouter.ControllerText.Primary">
-        <item name="android:textColor">#ffffffff</item>
-    </style>
-    <style name="Widget.MediaRouter.ControllerText.Secondary.Dark" parent="@*com.chrome.beta:style/Widget.MediaRouter.ControllerText.Secondary">
-        <item name="android:textColor">#ffffffff</item>
-    </style>
-    <style name="Widget.MediaRouter.ControllerText.Secondary.Light" parent="@*com.chrome.beta:style/Widget.MediaRouter.ControllerText.Secondary">
-        <item name="android:textColor">#ffffffff</item>
-    </style>
+
     <style name="PreferenceTextAppearanceMedium">
         <item name="android:textSize">18.0sp</item>
         <item name="android:textColor">#ffffffff</item>
@@ -176,5 +126,10 @@
     <style name="FullscreenWhiteActivityTheme" parent="@*com.chrome.beta:style/FullscreenWhite">
         <item name="*com.chrome.beta:windowActionBar">false</item>
         <item name="android:backgroundTint">@*android:color/primary_material_dark</item>
+    </style>
+
+
+    <style name="TabbedModeTheme" parent="@*com.chrome.beta:style/MainTheme">
+        <item name="android:windowBackground">@*android:color/background_dark</item>
     </style>
 </resources>

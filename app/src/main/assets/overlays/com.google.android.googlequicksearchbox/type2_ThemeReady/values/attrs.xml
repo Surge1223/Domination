@@ -380,15 +380,6 @@
     <attr name="state_audioFilled" format="boolean" />
     <attr name="state_audioPlaying" format="boolean" />
     <attr name="state_audioPaused" format="boolean" />
-    <attr name="autoResizeText_resizeStepUnit">
-        <enum name="unitDip" value="1" />
-        <enum name="unitIn" value="4" />
-        <enum name="unitMm" value="5" />
-        <enum name="unitPt" value="3" />
-        <enum name="unitPx" value="0" />
-        <enum name="unitSp" value="2" />
-    </attr>
-    <attr name="autoResizeText_minTextSize" format="dimension" />
     <attr name="revealBackground" format="reference" />
     <attr name="shiftingMode">
         <enum name="auto" value="2" />
@@ -411,10 +402,6 @@
     </attr>
     <attr name="deferShadowGeneration" format="boolean" />
     <attr name="customShadows" format="boolean" />
-    <attr name="butterflyScaleType">
-        <enum name="fitStage" value="0" />
-        <enum name="scaleStage" value="1" />
-    </attr>
     <attr name="allowStacking" format="boolean" />
     <attr name="textSizeMaxDp" format="dimension" />
     <attr name="cardBackgroundColor" format="color" />
@@ -572,6 +559,7 @@
     <attr name="messageSecondParagraph" format="reference" />
     <attr name="annotation" format="reference" />
     <attr name="illustration" format="reference" />
+    <attr name="videoUri" format="string" />
     <attr name="switchText" format="reference" />
     <attr name="switchIcon" format="reference" />
     <attr name="learnMoreLinkTarget" format="reference" />
@@ -986,15 +974,17 @@
     <attr name="tabPaddingEnd" format="dimension" />
     <attr name="tabPaddingBottom" format="dimension" />
     <attr name="tabPadding" format="dimension" />
-    <attr name="hintTextAppearance" format="reference" />
     <attr name="hintEnabled" format="boolean" />
+    <attr name="hintAnimationEnabled" format="boolean" />
+    <attr name="hintTextAppearance" format="reference" />
+    <attr name="helperTextEnabled" format="boolean" />
+    <attr name="helperTextTextAppearance" format="reference" />
     <attr name="errorEnabled" format="boolean" />
     <attr name="errorTextAppearance" format="reference" />
     <attr name="counterEnabled" format="boolean" />
     <attr name="counterMaxLength" format="integer" />
     <attr name="counterTextAppearance" format="reference" />
     <attr name="counterOverflowTextAppearance" format="reference" />
-    <attr name="hintAnimationEnabled" format="boolean" />
     <attr name="passwordToggleEnabled" format="boolean" />
     <attr name="passwordToggleDrawable" format="reference" />
     <attr name="passwordToggleContentDescription" format="string" />

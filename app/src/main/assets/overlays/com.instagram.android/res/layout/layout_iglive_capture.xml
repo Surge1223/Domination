@@ -7,6 +7,5 @@
         <include layout="@*com.instagram.android:layout/layout_iglive_capture_prepare" />
         <ViewStub android:id="@*com.instagram.android:id/iglive_capture_hint_text_stub" android:layout="@*com.instagram.android:layout/bannertoast" android:layout_width="fill_parent" android:layout_height="wrap_content" />
         <ViewStub android:id="@*com.instagram.android:id/iglive_capture_end_stub" android:layout="@*com.instagram.android:layout/layout_iglive_capture_end" android:layout_width="fill_parent" android:layout_height="fill_parent" />
-        <ViewStub android:id="@*com.instagram.android:id/face_effect_picker_view_stub" android:layout="@*com.instagram.android:layout/face_effect_picker" android:layout_width="fill_parent" android:layout_height="fill_parent" />
     </FrameLayout>
 </FrameLayout>

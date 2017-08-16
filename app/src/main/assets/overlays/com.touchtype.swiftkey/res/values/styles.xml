@@ -5,11 +5,7 @@
     <style name="Platform.AppCompat.Light" parent="@*android:style/Theme.Material" />
 
 
-    <style name="ContainerTheme.Dialog.Alert" parent="@*com.touchtype.swiftkey:style/Theme.AppCompat.Dialog.Alert">
-        <item name="android:textColorPrimary">@*android:color/white</item>
-        <item name="android:windowBackground">@*android:color/transparent</item>
-        <item name="android:textColor">@*android:color/white</item>
-    </style>
+
 
     <style name="LightTheme.Dialog.Alert" parent="@*com.touchtype.swiftkey:style/Theme.AppCompat.Dialog.Alert">
         <item name="android:textColorPrimary">@*android:color/white</item>
@@ -79,4 +75,20 @@
 
 
     <style name="deviceDefaultThemeLightFullscreen" parent="@*android:style/Theme.DeviceDefault.NoActionBar.Fullscreen" />
+
+
+    <style name="CloudSetupGrid.Text" parent="@*com.touchtype.swiftkey:style/CloudSetupGrid">
+        <item name="android:textSize">12.0sp</item>
+        <item name="android:textColor">#ffdddddd</item>
+        <item name="android:layout_gravity">top</item>
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+    </style>
+    <style name="CloudSetupGrid.Title" parent="@*com.touchtype.swiftkey:style/CloudSetupGrid">
+        <item name="android:textSize">14.0sp</item>
+        <item name="android:textColor">#ffffffff</item>
+        <item name="android:layout_gravity">top</item>
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+    </style>
 </resources>

@@ -27,7 +27,7 @@
     <style name="Base.Widget.AppCompat.Light.ActionBar.TabView" parent="@*android:style/Widget.Material.ActionBar.TabView" />
     <style name="Base.Widget.AppCompat.ActionBar.TabText" parent="@*android:style/Widget.Material.ActionBar.TabText" />
     <style name="Base.Widget.AppCompat.Light.ActionBar.TabText" parent="@*android:style/Widget.Material.ActionBar.TabText" />
-    <style name="Base.Widget.AppCompat.Light.ActionBar.TabText.Inverse" parent="@*android:style/Widget.Material.ActionBar.TabText" />
+
     <style name="Base.TextAppearance.AppCompat.Widget.ActionMode.Title" parent="@*android:style/TextAppearance.Material.Widget.ActionMode.Title" />
     <style name="Base.TextAppearance.AppCompat.Widget.ActionMode.Subtitle" parent="@*android:style/TextAppearance.Material.Widget.ActionMode.Subtitle" />
     <style name="Base.TextAppearance.AppCompat.Widget.ActionBar.Menu" parent="@*android:style/TextAppearance.Material.Widget.ActionBar.Menu" />
@@ -69,18 +69,7 @@
         <item name="android:textSize">@*com.google.android.youtube:dimen/abc_text_size_display_1_material</item>
         <item name="android:textColor">#ffffffff</item>
     </style>
-    <style name="Base.TextAppearance.AppCompat.Display2" parent="@*com.google.android.youtube:style/Base.TextAppearance.AppCompat">
-        <item name="android:textSize">@*com.google.android.youtube:dimen/abc_text_size_display_2_material</item>
-        <item name="android:textColor">#ffdddddd</item>
-    </style>
-    <style name="Base.TextAppearance.AppCompat.Display3" parent="@*com.google.android.youtube:style/Base.TextAppearance.AppCompat">
-        <item name="android:textSize">@*com.google.android.youtube:dimen/abc_text_size_display_3_material</item>
-        <item name="android:textColor">#ffdddddd</item>
-    </style>
-    <style name="Base.TextAppearance.AppCompat.Display4" parent="@*com.google.android.youtube:style/Base.TextAppearance.AppCompat">
-        <item name="android:textSize">@*com.google.android.youtube:dimen/abc_text_size_display_4_material</item>
-        <item name="android:textColor">#ffbbbbbb</item>
-    </style>
+
     <style name="Base.TextAppearance.AppCompat.Headline" parent="@*com.google.android.youtube:style/Base.TextAppearance.AppCompat">
         <item name="android:textSize">@*com.google.android.youtube:dimen/abc_text_size_headline_material</item>
         <item name="android:textColor">#ffffffff</item>
@@ -123,9 +112,7 @@
         <item name="*com.google.android.youtube:textAllCaps">true</item>
     </style>
     <style name="Base.TextAppearance.AppCompat.Widget.Button" parent="@*com.google.android.youtube:style/TextAppearance.AppCompat.Button" />
-    <style name="Base.TextAppearance.AppCompat.Widget.Button.Inverse" parent="@*com.google.android.youtube:style/TextAppearance.AppCompat.Button">
-        <item name="android:textColor">#ffffffff</item>
-    </style>
+
     <style name="Base.TextAppearance.AppCompat.Inverse" parent="@*com.google.android.youtube:style/Base.TextAppearance.AppCompat">
         <item name="android:textColor">#ffffffff</item>
         <item name="android:textColorHint">#ffbbbbbb</item>
@@ -232,21 +219,7 @@
 
 
 
-    <style name="Base.Widget.YouTube.Native.Light.ActionBar" parent="@*android:style/Widget.DeviceDefault.ActionBar.Solid">
-        <item name="android:background">@*android:color/primary_material_dark</item>
-        <item name="android:displayOptions">showTitle</item>
-        <item name="android:titleTextStyle">@*com.google.android.youtube:style/TextAppearance.YouTube.Native.Widget.ActionBar.Title</item>
-        <item name="android:subtitleTextStyle">@*com.google.android.youtube:style/TextAppearance.YouTube.Native.Widget.ActionBar.Subtitle</item>
-    </style>
-    <style name="Widget.YouTube.Native.Light.ActionBar" parent="@*com.google.android.youtube:style/Base.Widget.YouTube.Native.Light.ActionBar" />
-    <style name="StatusBarEventContent">
-        <item name="android:textSize">12.0sp</item>
-        <item name="android:textColor">#ffffffff</item>
-    </style>
-    <style name="StatusBarEventContent.Title" parent="@*com.google.android.youtube:style/StatusBarEventContent">
-        <item name="android:textSize">18.0sp</item>
-        <item name="android:textColor">#ffffffff</item>
-    </style>
+
     <style name="AccountsDialogSeparator">
         <item name="android:background">@*android:color/background_floating_material_dark</item>
     </style>
@@ -255,9 +228,7 @@
     </style>
 
 
-    <style name="Base.TextAppearance.Widget.AppCompat.ExpandedMenu.Item" parent="@*android:style/TextAppearance.Medium">
-        <item name="android:textColor">#ffdddddd</item>
-    </style>
+ 
     <style name="Base.Theme.AppCompat.CompactMenu" parent="">
         <item name="android:listViewStyle">@*com.google.android.youtube:style/Widget.AppCompat.ListView.Menu</item>
         <item name="android:windowAnimationStyle">@*com.google.android.youtube:style/Animation.AppCompat.DropDownUp</item>
@@ -352,5 +323,21 @@
         <item name="*com.google.android.youtube:colorPrimaryDark">@*android:color/primary_dark_material_dark</item>
         <item name="*com.google.android.youtube:colorAccent">@*android:color/accent_material_dark</item>
         <item name="*com.google.android.youtube:colorControlActivated">@*com.google.android.youtube:color/theme_main_color_accent</item>
+    </style>
+
+
+
+
+    <style name="CancelSurveyRadioButton" parent="@*com.google.android.youtube:style/Theme.AppCompat">
+        <item name="android:textColorSecondary">#ffdddddd</item>
+        <item name="android:textColor">@*android:color/white</item>
+        <item name="*com.google.android.youtube:colorAccent">#ff1976d2</item>
+    </style>
+    <style name="Theme.YouTube.YpcOffers" parent="@*com.google.android.youtube:style/Theme.AppCompat.Light.Dialog">
+        <item name="android:windowIsTranslucent">true</item>
+        <item name="android:background">@*android:color/background_dark</item>
+        <item name="*com.google.android.youtube:loadingFrameErrorDrawable">@*com.google.android.youtube:drawable/quantum_ic_error_outline_black_36</item>
+        <item name="*com.google.android.youtube:loadingFrameTextColor">@*android:color/white</item>
+        <item name="*com.google.android.youtube:colorAccent">@*com.google.android.youtube:color/color_brand_primary_alternate</item>
     </style>
 </resources>

@@ -291,4 +291,18 @@
     <color name="dialog_default_text_color">#ffffffff</color>
     <color name="light_emoji_panel_accented_background">@*android:color/button_material_dark</color>
     <color name="light_emoji_panel_main_background">@*android:color/background_floating_material_dark</color>
+
+
+    <color name="swiftkey_preference_hwr_indent_icon">#ffdddddd</color>
+    <color name="cloud_not_now_background">#ff1976d2</color>
+    <color name="cloud_sign_in_text">#ffdddddd</color>
+    <color name="cloud_sign_in_title">#ffffffff</color>
+    <color name="dark_fancy_panel_accented_background">@*android:color/background_floating_material_dark</color>
+    <color name="dark_fancy_panel_main_background">@*android:color/button_material_dark</color>
+    <color name="fancy_panel_selected_tab">#ff009688</color>
+    <color name="fancy_panel_unselected_tab">#ffbbbbbb</color>
+    <color name="gif_tile_banner_background">@*android:color/background_floating_material_dark</color>
+    <color name="gif_tile_banner_text">@*android:color/white</color>
+    <color name="light_fancy_panel_accented_background">@*android:color/background_floating_material_dark</color>
+    <color name="light_fancy_panel_main_background">@*android:color/button_material_dark</color>
 </resources>
