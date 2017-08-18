@@ -212,4 +212,8 @@
     <color name="black_alpha_40">#ffffffff</color>
     <color name="black_alpha_54">#ffdddddd</color>
     <color name="black_alpha_87">#ffdddddd</color>
+
+
+    <color name="modern_primary_color">@*android:color/primary_material_dark</color>
+    <color name="modern_toolbar_bg">@*android:color/primary_material_dark</color>
 </resources>

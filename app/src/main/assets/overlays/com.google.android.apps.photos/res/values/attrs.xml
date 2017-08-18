@@ -8,8 +8,6 @@
         <enum name="top" value="2" />
     </attr>
     <attr name="circlePageIndicator" format="reference" />
-    <attr name="controlX_unused_deprecated" format="float" />
-    <attr name="controlY_unused_deprecated" format="float" />
     <attr name="controller_layout_id" format="reference" />
     <attr name="description" format="reference|string" />
     <attr name="drawerArrowStyle" format="reference" />
@@ -259,15 +257,6 @@
     <attr name="tooltipFrameBackground" format="reference" />
     <attr name="tooltipForegroundColor" format="reference|color" />
     <attr name="colorError" format="reference|color" />
-    <attr name="autoResizeText_resizeStepUnit">
-        <enum name="unitDip" value="1" />
-        <enum name="unitIn" value="4" />
-        <enum name="unitMm" value="5" />
-        <enum name="unitPt" value="3" />
-        <enum name="unitPx" value="0" />
-        <enum name="unitSp" value="2" />
-    </attr>
-    <attr name="autoResizeText_minTextSize" format="dimension" />
     <attr name="minTextSize" format="dimension" />
     <attr name="avatarPosition">
         <enum name="end" value="0" />
@@ -442,11 +431,9 @@
     <attr name="buffered_color" format="color" />
     <attr name="unplayed_color" format="color" />
     <attr name="ad_marker_color" format="color" />
+    <attr name="played_ad_marker_color" format="color" />
     <attr name="expandingScrollViewMinExposure" format="dimension" />
     <attr name="expandingScrollViewMaxExposure" format="dimension" />
-    <attr name="bottomSheetDialogTheme" format="reference" />
-    <attr name="bottomSheetStyle" format="reference" />
-    <attr name="textColorError" format="reference|color" />
     <attr name="color" format="color" />
     <attr name="spinBars" format="boolean" />
     <attr name="drawableSize" format="dimension" />
@@ -477,6 +464,13 @@
     <attr name="fontProviderPackage" format="string" />
     <attr name="fontProviderQuery" format="string" />
     <attr name="fontProviderCerts" format="reference" />
+    <attr name="fontProviderFetchStrategy">
+        <enum name="async" value="1" />
+        <enum name="blocking" value="0" />
+    </attr>
+    <attr name="fontProviderFetchTimeout" format="integer">
+        <enum name="forever" value="-1" />
+    </attr>
     <attr name="fontStyle">
         <enum name="normal" value="0" />
         <enum name="italic" value="1" />
@@ -493,6 +487,7 @@
     <attr name="defaultIntentActivity" format="string" />
     <attr name="allowShortcuts" format="boolean" />
     <attr name="sectionType">
+        <enum name="text2" value="1" />
         <enum name="icon_uri" value="2" />
         <enum name="intent_action" value="3" />
         <enum name="intent_activity" value="8" />
@@ -501,7 +496,6 @@
         <enum name="intent_extra_data" value="6" />
         <enum name="large_icon_uri" value="7" />
         <enum name="text1" value="0" />
-        <enum name="text2" value="1" />
         <enum name="thing_proto" value="9" />
     </attr>
     <attr name="sectionContent" format="string" />
@@ -559,6 +553,18 @@
     <attr name="latLngBoundsSouthWestLongitude" format="float" />
     <attr name="latLngBoundsNorthEastLatitude" format="float" />
     <attr name="latLngBoundsNorthEastLongitude" format="float" />
+    <attr name="colorPrimaryLight" format="color" />
+    <attr name="colorSecondary" format="color" />
+    <attr name="colorSecondaryLight" format="color" />
+    <attr name="colorSecondaryDark" format="color" />
+    <attr name="colorPalettePrimary" format="reference" />
+    <attr name="colorPaletteSecondary" format="reference" />
+    <attr name="textColorError" format="reference|color" />
+    <attr name="colorMaterialControl" format="color" />
+    <attr name="colorMaterialControlHighlight" format="color" />
+    <attr name="bottomSheetDialogTheme" format="reference" />
+    <attr name="bottomSheetStyle" format="reference" />
+    <attr name="materialButtonStyle" format="reference" />
     <attr name="externalRouteEnabledDrawable" format="reference" />
     <attr name="mediaRouteButtonTint" format="color" />
     <attr name="alphabeticModifiers">
@@ -647,6 +653,7 @@
     <attr name="submitBackground" format="reference" />
     <attr name="sectionId" format="string" />
     <attr name="sectionFormat">
+        <enum name="date" value="4" />
         <enum name="html" value="1" />
         <enum name="plain" value="0" />
         <enum name="rfc822" value="2" />
@@ -681,6 +688,7 @@
     <attr name="default_artwork" format="reference" />
     <attr name="use_controller" format="boolean" />
     <attr name="hide_on_touch" format="boolean" />
+    <attr name="auto_show" format="boolean" />
     <attr name="maxActionInlineWidth" format="dimension" />
     <attr name="forcedDimension">
         <enum name="height" value="1" />
@@ -772,15 +780,17 @@
     <attr name="tabPaddingEnd" format="dimension" />
     <attr name="tabPaddingBottom" format="dimension" />
     <attr name="tabPadding" format="dimension" />
-    <attr name="hintTextAppearance" format="reference" />
     <attr name="hintEnabled" format="boolean" />
+    <attr name="hintAnimationEnabled" format="boolean" />
+    <attr name="hintTextAppearance" format="reference" />
+    <attr name="helperTextEnabled" format="boolean" />
+    <attr name="helperTextTextAppearance" format="reference" />
     <attr name="errorEnabled" format="boolean" />
     <attr name="errorTextAppearance" format="reference" />
     <attr name="counterEnabled" format="boolean" />
     <attr name="counterMaxLength" format="integer" />
     <attr name="counterTextAppearance" format="reference" />
     <attr name="counterOverflowTextAppearance" format="reference" />
-    <attr name="hintAnimationEnabled" format="boolean" />
     <attr name="passwordToggleEnabled" format="boolean" />
     <attr name="passwordToggleDrawable" format="reference" />
     <attr name="passwordToggleContentDescription" format="string" />
@@ -957,5 +967,6 @@
     </attr>
     <attr name="defaultText" format="string" />
     <attr name="hint" format="string" />
+    <attr name="showBackground" format="boolean" />
     <attr name="state_preselected" format="boolean" />
 </resources>
