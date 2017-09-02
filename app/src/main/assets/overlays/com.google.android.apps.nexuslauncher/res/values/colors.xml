@@ -37,10 +37,44 @@
     <color name="all_apps_caret_color">#ffffffff</color>
     <color name="all_apps_container_color">#cc000000</color>
     <color name="spring_loaded_panel_color">#40000000</color>
-    <color name="spring_loaded_highlighted_panel_border_color">#ff555555</color>
+    <color name="spring_loaded_highlighted_panel_border_color">#ffffffff</color>
     <color name="widgets_view_section_text_color">#ffffffff</color>
     <color name="widgets_view_item_text_color">#ffdddddd</color>
     <color name="fallback_secondary_color">#ff37474f</color>
     <color name="qsb_connector">#80000000</color>
     <color name="qsb_background">@*android:color/background_dark</color>
+
+
+
+
+
+
+
+
+
+
+
+    <!-- Popup container -->
+    <color name="popup_header_background_color">@*android:color/background_floating_material_dark</color>
+    <color name="popup_background_color">@*android:color/background_floating_material_dark</color>
+    <color name="notification_icon_default_color">#ffffffff</color>
+    <color name="notification_color_beneath">#fffbc02d</color>
+
+
+    <color name="folder_badge_color">#ffe91e63</color>
+
+    <!-- System shortcuts -->
+    <color name="system_shortcuts_icon_color">#ffffffff</color>
+
+    <color name="legacy_icon_background">@*android:color/button_material_dark</color>
+    <color name="icon_background">#ff1976d2</color>
+
+    <!-- Pixel -->
+    <color name="colorPrimary">#cc000000</color>
+    <color name="colorPrimaryDark">#cc000000</color>
+    <color name="colorSecondary">@*android:color/button_material_dark</color>
+    <color name="colorAccent">#ff1976d2</color>
+
+
+    <color name="qsb_connector_gradient_end_color">#66000000</color>
 </resources>

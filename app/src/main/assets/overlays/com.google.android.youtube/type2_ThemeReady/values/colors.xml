@@ -315,7 +315,7 @@
     <color name="channel_list_sub_menu_mode_button">@*android:color/button_material_dark</color>
     <!-- New with 11.23.56 -->
     <color name="add_connection_dialog_inviting_user_area_background">@*android:color/background_floating_material_dark</color>
-    <color name="color_brand_primary_dark">@*android:color/background_dark</color>
+    <color name="color_brand_primary_dark">#ffb71c1c</color>
     <color name="simplebox_text_color">#61ffffff</color>
     <!-- New with 11.25.55 -->
     <color name="comment_bg_style_default">@*android:color/background_dark</color>
@@ -393,8 +393,8 @@
     <color name="live_chat_button_grey_light_color_pressed">#ff555555</color>
     <color name="live_chat_button_kevlar_color">@*android:color/button_material_dark</color>
     <color name="live_chat_button_kevlar_color_pressed">#ff555555</color>
-    <color name="live_chat_button_primary_color_disabled">@*android:color/button_material_dark</color>
-    <color name="live_chat_button_primary_text_disabled_color">#66ffffff</color>
+    <color name="live_chat_button_primary_color_disabled">#ff555555</color>
+
     <color name="live_chat_dark_char_count_text_color">#80ffffff</color>
     <color name="live_chat_header_viewership_color">#ffffffff</color>
     <color name="live_chat_light_char_count_text_color">#59ffffff</color>
@@ -547,7 +547,7 @@
 
     <color name="cluster_chip_text_default_color">#ffdddddd</color>
     <color name="cluster_chip_toggled_background_color">#ff1976d2</color>
-    <color name="comment_text_underline_color">#ffdddddd</color>
+
     <color name="list_item_swipe_background">@*android:color/button_material_dark</color>
     <color name="pivot_bar_background_dark">@*android:color/background_floating_material_dark</color>
     <color name="pivot_bar_content_tab_dark">#ffdddddd</color>
@@ -583,4 +583,49 @@
 
     <color name="sponsors_only_badge_color">#ff1976d2</color>
     <color name="uwc_spinner_selected_item_background">#ff555555</color>
+
+
+
+    <color name="brand_interaction_selected_background_color">#ff0d47a1</color>
+
+    <color name="connection_toolbar_background">@*android:color/primary_material_dark</color>
+    <color name="connection_toolbar_icon">@*android:color/white</color>
+    <color name="connection_toolbar_text">@*android:color/white</color>
+    <color name="conversation_dialog_status_bar_color">@*android:color/primary_dark_material_dark</color>
+    <color name="display_ad_cta_light_blue">#ff1976d2</color>
+    <color name="lc_button_style_destructive_background">#ffd32f2f</color>
+    <color name="lc_button_style_destructive_text">@*android:color/white</color>
+    <color name="lc_button_style_disabled_background">#ff555555</color>
+    <color name="lc_button_style_primary_background">#ff1976d2</color>
+    <color name="live_chat_empty_state_message_end_text_color_dark">@*android:color/white</color>
+    <color name="live_chat_empty_state_message_end_text_color_light">@*android:color/white</color>
+    <color name="promoted_native_ad_cta_light_blue">#ff1976d2</color>
+    <color name="red_carpet_playlist_video_background_color">@*android:color/background_floating_material_dark</color>
+    <color name="reel_avatar_background_color">#80202020</color>
+    <color name="reel_close_button_background">#80202020</color>
+
+    <color name="reel_edit_audio_remove_button_color">@*android:color/button_material_dark</color>
+
+    <color name="reel_item_lockup_title_color">#ffffffff</color>
+    <color name="reel_loading_dialog_bg_color">@*android:color/background_floating_material_dark</color>
+    <color name="reel_loading_dialog_spinner_color">#ff1976d2</color>
+    <color name="reel_loading_dialog_text_color">#ffdddddd</color>
+    <color name="reel_missing_thumbnail_bg_color">@*android:color/button_material_dark</color>
+    <color name="reel_primary_text_color">#ffffffff</color>
+    <color name="reel_progress_played">#ffd32f2f</color>
+    <color name="reel_progress_unplayed">#88ffffff</color>
+    <color name="reel_secondary_text_color">#c1ffffff</color>
+    <color name="reel_window_dark_background_color">@*android:color/background_dark</color>
+    <color name="related_video_bg">@*android:color/button_material_dark</color>
+
+    <color name="sticker_catalog_header">@*android:color/primary_material_dark</color>
+    <color name="sticker_catalog_spinner_color">#ff1976d2</color>
+    <color name="toolbar_text_color">#ffdddddd</color>
+
+    <color name="trash_icon_bg_enabled_color">#ffd32f2f</color>
+    <color name="watch_card_red_badge_icon_text_color">#ffd32f2f</color>
+
+
+    <color name="lc_live_icon_black">#ffffffff</color>
+
 </resources>

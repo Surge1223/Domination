@@ -388,7 +388,7 @@
     <color name="navigation_bar_color">@*android:color/background_dark</color>
     <color name="navigation_button_color">#ffffffff</color>
     <color name="neutral_pressed">#33555555</color>
-    <color name="no_results_feedback_color">#ff1976d2</color>
+    <color name="no_results_feedback_color">#ffffffff</color>
     <color name="normal_text_corpus_bar">#8affffff</color>
     <color name="normal_text_search_tools_bar">#8affffff</color>
 
@@ -871,4 +871,26 @@
     <color name="chromeos_caption_bar_button_selection_background_color">#ff555555</color>
     <color name="hats_lib_survey_light_ripple_color">#4dffffff</color>
     <color name="snackbar_action_text_color">#ff1976d2</color>
+
+
+    <color name="gdi_white_alpha_100">@*android:color/background_dark</color>
+    <color name="black_text">#ffffffff</color>
+    <color name="chatui_swipe_view_list_card_divider_color">#00000000</color>
+    <color name="chatui_swipe_view_list_card_element_text_color">#ffffffff</color>
+    <color name="chatui_swipe_view_list_card_title_color">#ffffffff</color>
+    <color name="corpus_bar_separator_color">#00000000</color>
+    <color name="default_list_icon_tint">#ffd32f2f</color>
+    <color name="eyes_tap_fill_color">#40e91e63</color>
+    <color name="eyes_tap_line_color">#c8fbc02d</color>
+    <color name="focus_border">#991976d2</color>
+    <color name="hats_lib_survey_caption_text_color">#ffdddddd</color>
+    <color name="light_blue_text">#ff1976d2</color>
+    <color name="modes_in_suggest_suggestion_background_color">@*android:color/background_dark</color>
+    <color name="tap_highlight">#ff555555</color>
+    <color name="thumbnail_tap_highlight">#1a555555</color>
+    <color name="user_list_icon_tint">#ff0097a7</color>
+    <color name="zero_suggest_corpus_bar_background_color">@*android:color/primary_material_dark</color>
+
+    <color name="zero_suggest_normal_text_corpus_bar">#ffdddddd</color>
+    <color name="zero_suggest_selected_text_corpus_bar">#ffffffff</color>
 </resources>

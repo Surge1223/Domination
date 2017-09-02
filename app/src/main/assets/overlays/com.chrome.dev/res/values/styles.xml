@@ -174,4 +174,9 @@
         <item name="android:divider">@null</item>
         <item name="android:backgroundTint">@*android:color/background_floating_material_dark</item>
     </style>
+
+
+    <style name="GvrDialogTheme" parent="@*android:style/Theme.Holo.Dialog">
+        <item name="android:windowBackground">@*android:color/transparent</item>
+    </style>
 </resources>

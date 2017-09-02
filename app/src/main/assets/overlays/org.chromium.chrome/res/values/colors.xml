@@ -216,4 +216,5 @@
 
     <color name="modern_primary_color">@*android:color/primary_material_dark</color>
     <color name="modern_toolbar_bg">@*android:color/primary_material_dark</color>
+    <color name="modern_light_grey">@*android:color/primary_material_dark</color>
 </resources>

@@ -2,5 +2,5 @@
 <shape android:shape="rectangle"
   xmlns:android="http://schemas.android.com/apk/res/android">
     <solid android:color="@*android:color/button_material_dark" />
-    <corners android:radius="@*com.google.android.apps.nexuslauncher:dimen/bg_pill_radius" />
+    <corners android:radius="24.0dip" />
 </shape>

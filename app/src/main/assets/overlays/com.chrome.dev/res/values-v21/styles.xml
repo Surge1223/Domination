@@ -32,4 +32,7 @@
     <style name="Base.Widget.AppCompat.ListView.DropDown" parent="@*android:style/Widget.Material.ListView.DropDown">
         <item name="android:backgroundTint">@*android:color/background_floating_material_dark</item>
     </style>
+
+
+    <style name="GvrDialogTheme" parent="@*android:style/Theme.Material.Dialog" />
 </resources>

@@ -7,9 +7,12 @@
         <item name="android:textColor">#ffffffff</item>
     </style>
     <style name="PlayRatingBarSmall">
-        <item name="android:background">#ff4caf50</item>
+        <item name="android:textColor">#ffffffff</item>
         <item name="android:layout_width">wrap_content</item>
         <item name="android:layout_height">wrap_content</item>
+        <item name="*com.android.vending:star_height">@*com.android.vending:dimen/play_star_rating_bar_small_height</item>
+        <item name="*com.android.vending:star_color">@*android:color/white</item>
+        <item name="*com.android.vending:star_bg_color">@*android:color/background_floating_material_dark</item>
         <item name="*com.android.vending:gap">@*com.android.vending:dimen/play_star_rating_bar_small_gap</item>
     </style>
     <style name="PlaySearchPlate">
@@ -208,7 +211,7 @@
         <item name="android:layout_width">wrap_content</item>
         <item name="android:layout_height">wrap_content</item>
         <item name="*com.android.vending:star_height">@*com.android.vending:dimen/discovery_badge_rating_bar_height</item>
-        <item name="*com.android.vending:star_color">#ffffffff</item>
+        <item name="*com.android.vending:star_color">@*android:color/white</item>
         <item name="*com.android.vending:star_bg_color">@*android:color/background_floating_material_dark</item>
         <item name="*com.android.vending:gap">@*com.android.vending:dimen/discovery_badge_rating_bar_star_gap</item>
     </style>
@@ -395,4 +398,74 @@
         <item name="*com.android.vending:playCardClipToOutline">true</item>
     </style>
 
+
+
+    <style name="PEReasonText">
+        <item name="android:textSize">@*com.android.vending:dimen/pe_medium_text_size</item>
+        <item name="android:textStyle">normal</item>
+        <item name="android:textColor">#ffffffff</item>
+        <item name="android:gravity">center_vertical</item>
+        <item name="android:drawablePadding">@*com.android.vending:dimen/default_half_padding</item>
+        <item name="android:lineSpacingMultiplier">1.1</item>
+        <item name="android:textAllCaps">true</item>
+    </style>
+    <style name="PEText">
+        <item name="android:textSize">@*com.android.vending:dimen/pe_medium_text_size</item>
+        <item name="android:textStyle">normal</item>
+        <item name="android:textColor">#ffdddddd</item>
+        <item name="android:textColorLink">#ffdddddd</item>
+        <item name="android:lineSpacingMultiplier">1.1</item>
+    </style>
+    <style name="PEText.CallToAction" parent="@*com.android.vending:style/PEText">
+        <item name="android:textSize">@*com.android.vending:dimen/pe_small_text_size</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:textColor">#ffffffff</item>
+        <item name="android:ellipsize">end</item>
+        <item name="android:lines">1</item>
+        <item name="android:textAllCaps">true</item>
+    </style>
+    <style name="PEText.ClusterItemLabel" parent="@*com.android.vending:style/PEText">
+        <item name="android:textSize">@*com.android.vending:dimen/pe_medium_text_size</item>
+        <item name="android:textColor">#ffffffff</item>
+        <item name="android:lineSpacingMultiplier">1.1</item>
+    </style>
+    <style name="PETitleText">
+        <item name="android:textSize">@*com.android.vending:dimen/pe_large_text_size</item>
+        <item name="android:textStyle">normal</item>
+        <item name="android:textColor">#ffffffff</item>
+        <item name="android:lineSpacingMultiplier">1.1</item>
+    </style>
+    <style name="PETrackListItem">
+        <item name="android:textSize">@*com.android.vending:dimen/pe_medium_text_size</item>
+        <item name="android:textStyle">normal</item>
+        <item name="android:textColor">#ffdddddd</item>
+        <item name="android:gravity">center_vertical</item>
+    </style>
+    <style name="PETrackListItem.TrackName" parent="@*com.android.vending:style/PETrackListItem">
+        <item name="android:textColor">#ffffffff</item>
+        <item name="android:ellipsize">end</item>
+        <item name="android:maxLines">2</item>
+    </style>
+    <style name="DetailsSecondaryActionButtonIcon">
+        <item name="android:gravity">center</item>
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">32.0dip</item>
+        <item name="android:layout_margin">2.0dip</item>
+        <item name="android:alpha">1.00</item>
+        <item name="android:tint">#ffdddddd</item>
+    </style>
+    <style name="DarkerMedium" parent="@*com.android.vending:style/TextAppearance.AppCompat.Medium">
+        <item name="android:textColor">#ffffffff</item>
+    </style>
+    <style name="Base.TextAppearance.AppCompat.Medium" parent="@*com.android.vending:style/Base.TextAppearance.AppCompat">
+        <item name="android:textSize">@*com.android.vending:dimen/abc_text_size_medium_material</item>
+        <item name="android:textColor">#ffdddddd</item>
+    </style>
+    <style name="Base.TextAppearance.AppCompat" parent="@*android:style/TextAppearance">
+        <item name="android:textSize">@*com.android.vending:dimen/abc_text_size_body_1_material</item>
+        <item name="android:textColor">#ffffffff</item>
+        <item name="android:textColorHighlight">?android:textColorHighlight</item>
+        <item name="android:textColorHint">?android:textColorHint</item>
+        <item name="android:textColorLink">?android:textColorLink</item>
+    </style>
 </resources>

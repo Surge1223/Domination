@@ -64,6 +64,7 @@
         <item name="android:textAllCaps">true</item>
         <item name="android:fontFamily">sans-serif-medium</item>
     </style>
+
     <style name="TextAppearance.SwitchBar" parent="@*android:style/TextAppearance.Material.Title">
         <item name="android:textColor">#ffffffff</item>
     </style>

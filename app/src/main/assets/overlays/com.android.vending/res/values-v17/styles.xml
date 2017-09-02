@@ -104,4 +104,16 @@
         <item name="*com.android.vending:action_top_padding">0.0dip</item>
         <item name="*com.android.vending:action_bottom_padding">0.0dip</item>
     </style>
+
+
+    <style name="AccountPaymentMethodsIcon">
+        <item name="android:layout_width">32.0dip</item>
+        <item name="android:layout_height">32.0dip</item>
+        <item name="android:layout_marginLeft">20.0dip</item>
+        <item name="android:layout_marginRight">20.0dip</item>
+        <item name="android:layout_marginStart">20.0dip</item>
+        <item name="android:layout_marginEnd">20.0dip</item>
+        <item name="android:alpha">1.00</item>
+        <item name="android:tint">#ffdddddd</item>
+    </style>
 </resources>
