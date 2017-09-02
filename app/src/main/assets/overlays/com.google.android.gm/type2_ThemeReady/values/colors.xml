@@ -274,7 +274,6 @@
     <color name="tooltip_background_dark">#e6202020</color>
     <color name="tooltip_background_light">#e6202020</color>
 
-
     <color name="suw_glif_background_color_dark">@*android:color/background_dark</color>
     <color name="suw_glif_background_color_light">@*android:color/background_dark</color>
 </resources>

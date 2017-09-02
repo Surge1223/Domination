@@ -305,4 +305,12 @@
     <color name="gif_tile_banner_text">@*android:color/white</color>
     <color name="light_fancy_panel_accented_background">@*android:color/background_floating_material_dark</color>
     <color name="light_fancy_panel_main_background">@*android:color/button_material_dark</color>
+
+
+    <color name="fancy_panel_grey">#ffdddddd</color>
+    <color name="gif_search_clear_button">#ffffffff</color>
+    <color name="light_gif_search_text">#ffdddddd</color>
+
+    <color name="language_prefs_button_background_disabled">#ff555555</color>
+    <color name="language_prefs_button_text_disabled">#ffaaaaaa</color>
 </resources>

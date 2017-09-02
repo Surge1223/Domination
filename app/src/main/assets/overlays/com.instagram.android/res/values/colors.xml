@@ -2,10 +2,10 @@
 <resources>
     <color name="grey_9">#ffffffff</color>
     <color name="grey_9_30_transparent">#4dffffff</color>
-    <color name="grey_8">#ffffffff</color>
+    <color name="grey_8">@*android:color/button_material_dark</color>
     <color name="grey_7">#ffdddddd</color>
     <color name="grey_6">#ffdddddd</color>
-    <color name="grey_5">#ffdddddd</color>
+    <color name="grey_5">#ffffffff</color>
     <color name="grey_4">#ffdddddd</color>
     <color name="grey_3">#ffdddddd</color>
     <color name="grey_2">@*android:color/background_dark</color>
@@ -110,4 +110,9 @@
     <color name="gradient_shimmer_background_start">#ff512da8</color>
     <color name="gradient_shimmer_background_end">#ff512da8</color>
 
+
+
+    <color name="list_unseen_background_color">#ff555555</color>
+    <color name="zero_rating_data_banner_color">@*android:color/background_floating_material_dark</color>
+    <color name="status_bar_background">@*android:color/primary_dark_material_dark</color>
 </resources>

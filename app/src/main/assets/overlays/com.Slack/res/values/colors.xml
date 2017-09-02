@@ -241,4 +241,7 @@
     <color name="instant_invite_link_blue">#ff1976d2</color>
     <color name="mustard_yellow">#ffdfa941</color>
     <color name="pale_blue">#ff1976d2</color>
+
+    <color name="mention_yellow">#ff555555</color>
+    <color name="mention_yellow_80p_opaque">#ff555555</color>
 </resources>

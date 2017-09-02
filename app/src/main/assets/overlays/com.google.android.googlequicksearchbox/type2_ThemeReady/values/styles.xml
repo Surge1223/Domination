@@ -572,11 +572,19 @@
         <item name="android:maxLines">2</item>
         <item name="android:drawablePadding">4.0dip</item>
         <item name="android:textAllCaps">true</item>
+        <item name="android:shadowColor">@*android:color/white</item>
+        <item name="android:shadowDx">2.0</item>
+        <item name="android:shadowDy">2.0</item>
+        <item name="android:shadowRadius">8.0</item>
     </style>
     <style name="CardListTitle" parent="@*com.google.android.googlequicksearchbox:style/CardText">
         <item name="android:textSize">@*com.google.android.googlequicksearchbox:dimen/card_medium_text</item>
         <item name="android:textColor">@*com.google.android.googlequicksearchbox:color/card_title_text</item>
         <item name="android:textAllCaps">true</item>
+        <item name="android:shadowColor">@*android:color/white</item>
+        <item name="android:shadowDx">2.0</item>
+        <item name="android:shadowDy">2.0</item>
+        <item name="android:shadowRadius">8.0</item>
     </style>
     <style name="CardText">
         <item name="android:textSize">@*com.google.android.googlequicksearchbox:dimen/card_small_text</item>
@@ -585,6 +593,10 @@
         <item name="android:ellipsize">end</item>
         <item name="android:maxLines">2</item>
         <item name="android:textAllCaps">true</item>
+        <item name="android:shadowColor">@*android:color/white</item>
+        <item name="android:shadowDx">2.0</item>
+        <item name="android:shadowDy">2.0</item>
+        <item name="android:shadowRadius">8.0</item>
     </style>
     <style name="Theme.Velvet" parent="@*com.google.android.googlequicksearchbox:style/Theme.Gsa">
         <item name="android:windowBackground">@*com.google.android.googlequicksearchbox:color/activity_background</item>
@@ -595,6 +607,10 @@
         <item name="android:statusBarColor">@*com.google.android.googlequicksearchbox:color/status_bar_background</item>
         <item name="*com.google.android.googlequicksearchbox:qpCardElevation">@*com.google.android.googlequicksearchbox:dimen/card_elevation</item>
         <item name="android:textAllCaps">true</item>
+        <item name="android:shadowColor">@*android:color/white</item>
+        <item name="android:shadowDx">2.0</item>
+        <item name="android:shadowDy">2.0</item>
+        <item name="android:shadowRadius">8.0</item>
     </style>
 
 
@@ -636,5 +652,28 @@
         <item name="android:textSize">14.0sp</item>
         <item name="android:textColor">@*android:color/white</item>
         <item name="android:fontFamily">@*com.google.android.googlequicksearchbox:string/roboto_medium</item>
+    </style>
+
+
+    <style name="qp_card_module">
+        <item name="android:minHeight">@*com.google.android.googlequicksearchbox:dimen/qp_min_module_height</item>
+        <item name="android:backgroundTint">@*android:color/background_floating_material_dark</item>
+    </style>
+
+
+    <style name="LinkText">
+        <item name="android:textSize">14.0sp</item>
+        <item name="android:textColor">#ffffffff</item>
+        <item name="android:fontFamily">Roboto</item>
+    </style>
+    <style name="MoreOrLessIcon">
+        <item name="android:layout_gravity">center|right|top</item>
+        <item name="android:background">@*com.google.android.googlequicksearchbox:drawable/circle_background</item>
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_marginTop">32.0dip</item>
+        <item name="android:alpha">0.3</item>
+        <item name="android:layout_marginEnd">10.0dip</item>
+        <item name="android:backgroundTint">@*android:color/button_material_dark</item>
     </style>
 </resources>

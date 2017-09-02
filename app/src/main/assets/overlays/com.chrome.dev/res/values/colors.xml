@@ -206,4 +206,14 @@
     <color name="black_alpha_40">#ffffffff</color>
     <color name="black_alpha_54">#ffdddddd</color>
     <color name="black_alpha_87">#ffdddddd</color>
+
+
+    <color name="suggestions_modern_bg">@*android:color/background_floating_material_dark</color>
+    <color name="incognito_ntp_learn_more_link">#ff1976d2</color>
+    <color name="incognito_ntp_header">@*android:color/primary_material_dark</color>
+    <color name="modern_primary_color">@*android:color/primary_material_dark</color>
+    <color name="modern_toolbar_bg">#e6000000</color>
+
+    <color name="modern_light_grey">@*android:color/primary_material_dark</color>
+    <color name="modern_grey_300">@*android:color/background_dark</color>
 </resources>
